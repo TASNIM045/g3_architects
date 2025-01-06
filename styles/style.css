@@ -165,6 +165,7 @@ main {
 .ten-years-badge p {
     font-size: 1.5rem;
 }
+
 /* facts section */
 
 .facts-card-container .card {
@@ -210,6 +211,21 @@ main {
     width: 165px;
 }
 
+/* footer section */
+
+.footer {
+    background-color: #FFF4E7;
+    max-width: 1420px;
+    height: 100px;
+    margin: 5px auto;
+}
+
+.copy-right-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
 /* responsive part */
 
 @media screen and (max-width: 576px) {
@@ -238,10 +254,12 @@ main {
     .facts-card-container {
         gap: 20px;
     }
+
     .features-img img {
         width: 100%;
         margin-left: 0px;
     }
+
     .ten-years-badge {
         position: static;
         max-width: 290px;
