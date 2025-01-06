@@ -2,9 +2,64 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* common shared style */
 * {
 
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+/* header section style */
+
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner-section style */
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner-description {
+    color: #727272;
+    font-weight: 400;
 }
